@@ -1,0 +1,180 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 70px;
+  background-color: rgb(255, 255, 255);;
+  position: sticky; 
+  top: 0;
+}
+.faq-block {
+  margin-top: auto;
+}
+
+button.FaqSection {
+  margin: 0px;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 250;
+  max-width: 100%;
+  color: rgb(37, 38, 44);
+  margin: 0;
+  padding: 32px;
+}
+.FaqSection {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid rgb(226, 226, 226);
+  text-align: left;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+}
+.main{
+  padding-right: 20px;
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(245, 245, 245);;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 80px;
+  background-color: rgb(1, 105, 255);
+  margin-top: auto;
+  color: white;
+  border-radius: 24px 24px 0px 0px;
+  padding: 48px 20px 32px;
+}
+.body {
+  margin: 0;
+  padding: auto;
+  box-sizing: border-box;
+  color: grey;
+}
+.span1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(1, 105, 255);
+}
+.span2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(1, 105, 255);
+  flex: 2;
+}
+.button1 {
+    background-color: rgb(1, 105, 255);
+    margin-left: auto;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button2 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    color: rgb(1, 105, 255);;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 105, 255);;
+  }
+  .Form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    text-align: left;
+    
+  }
+  .InputFrame {
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;   
+    overflow: auto; 
+  }
+  textarea.InputFrame {
+
+  flex: none;          /*  тут пытался убрать баг, не полусилось */
+  display: block;      
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical; 
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-gutter: stable;
+  resize: none;
+  
+  }
+  button.SupportForm {
+    background-color: rgb(1, 105, 255);
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 17px;
+    
+  }
+  button:disabled { 
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .accept-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px; 
+  }
+  .accept-row {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+  }
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 4px;
+  
+}
+
+.faq-answer {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: #9F9DB1;
+  border-radius: 3px;
+  margin: 0;
+  text-align: left;
+}
+.InputFrame.error {
+  border: 1px solid red;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 0;
+}
