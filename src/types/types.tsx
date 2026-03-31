@@ -1,3 +1,5 @@
+import type { FormEvent, ReactNode, ChangeEvent } from 'react'
+
 export interface Ifaq {
     id: number;
     question: string;
@@ -6,9 +8,9 @@ export interface Ifaq {
 export interface IFormProps {
     width?: string;
     height?: string;
-    children?: React.ReactNode; 
-    onSubmit: (e: React.FormEvent<HTMLFormElement>) => void;
-    
+    children?: ReactNode;
+    onSubmit: (e: FormEvent<HTMLFormElement>) => void;
+
 }
 
 export interface IFaqSectionProps {
@@ -24,6 +26,18 @@ export interface InputFrameProps {
     kind?: FieldKind
     type?: 'text' | 'email'
     value: string
-    onChange: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
+    onChange: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
     placeholder?: string
+}
+
+export interface ISupportFormProps {
+    name: string
+    email: string
+    message: string
+    reason: string
+    accept: boolean
+
+}
+export interface MainProps {
+    faq: Ifaq[]
 }

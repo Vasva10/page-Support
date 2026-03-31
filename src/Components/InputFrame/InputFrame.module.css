@@ -1,0 +1,22 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.textarea {
+    flex: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-gutter: stable;
+    resize: none;
+}
+
+.error {
+    border: 1px solid red;
+}
