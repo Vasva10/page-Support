@@ -1,0 +1,18 @@
+.faqBlock {
+    margin-top: auto;
+}
+
+.intoFaq{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.intoMain {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: pre-line;
+}
