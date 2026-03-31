@@ -10,5 +10,5 @@ export const SupportSchema = z.object({
         message: 'validation.reason.required',
     }),
 })
- 
+
 export type SupportSchema = z.infer<typeof SupportSchema>

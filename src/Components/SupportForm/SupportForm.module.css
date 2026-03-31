@@ -1,0 +1,29 @@
+.text {
+    color: red;
+  font-size: 12px;
+  margin-top: 0;
+}
+.select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+  
+  }
+  .button {
+    background-color: rgb(1, 105, 255);
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 17px;
+  
+  }
+  .button:disabled {
+    border: none;
+    opacity: 0.5;
+    cursor: not-enabled;
+  }
+  
